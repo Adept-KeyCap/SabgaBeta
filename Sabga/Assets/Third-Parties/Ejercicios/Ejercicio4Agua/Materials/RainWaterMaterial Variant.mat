@@ -43,6 +43,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
-    m_Floats: []
-    m_Colors: []
+    m_Floats:
+    - _NormalStrenght: 0.543
+    - _Smoothness: 0
+    - _WaveScale: 1.192
+    - _WaveSpeed: 0.89
+    m_Colors:
+    - _NormalSpeed: {r: -0.2, g: 0.2, b: 0, a: 0}
   m_BuildTextureStacks: []
