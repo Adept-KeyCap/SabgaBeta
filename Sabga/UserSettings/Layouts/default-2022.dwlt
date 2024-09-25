@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 18
+  controlID: 154
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 19
+  controlID: 27
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -3140,7 +3140,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.16658074, y: 1.9338126, z: 0.1393255}
+    m_Target: {x: -0.23982124, y: 3.304536, z: 0.31099898}
     speed: 2
     m_Value: {x: -0.16658074, y: 1.9338126, z: 0.1393255}
   m_RenderMode: 0
@@ -3188,11 +3188,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.53336346, y: -0.00090332574, z: 0.0003285975, w: -0.84602344}
+    m_Target: {x: -0.20149842, y: 0.25005776, z: -0.053511966, w: -0.94564307}
     speed: 2
-    m_Value: {x: -0.53456944, y: 0.0003649596, z: -0.00047194105, w: -0.84512436}
+    m_Value: {x: -0.53336346, y: -0.0009033257, z: 0.0003285975, w: -0.8460234}
   m_Size:
-    m_Target: 0.9994804
+    m_Target: 1.485323
     speed: 2
     m_Value: 0.9994804
   m_Ortho:
@@ -9053,9 +9053,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f2a00000
+      m_SelectedIDs: d67f0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 36eaffff28fbffff
+      m_ExpandedIDs: 14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -9125,7 +9125,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/2-Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -9133,16 +9133,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/2-Scenes
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Unity Projects\Sabga\Sabga
+  m_LastProjectPath: D:\Sabga\Sabga
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 74a00000
-    m_LastClickedID: 41076
-    m_ExpandedIDs: 0000000052a0000054a0000056a0000058a000005aa0000074a0000000ca9a3bffffff7f
+    m_SelectedIDs: 989a0000
+    m_LastClickedID: 39576
+    m_ExpandedIDs: 00000000989a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -9170,7 +9170,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000052a0000054a0000056a0000058a000005aa00000
+    m_ExpandedIDs: 00000000989a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -9197,7 +9197,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 0c640000726d0000806700000c70000034af0000666d0000000000003270000040700000d2700000be700000487a0000328600005a9d000076a9000092830000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -9397,7 +9397,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: d6830000
     m_LastClickedID: 33750
-    m_ExpandedIDs: 0000000052a0000054a0000056a0000058a000005aa00000
+    m_ExpandedIDs: 00000000989a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -9425,7 +9425,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000052a0000054a0000056a0000058a000005aa00000
+    m_ExpandedIDs: 00000000989a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
