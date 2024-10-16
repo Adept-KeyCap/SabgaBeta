@@ -30,7 +30,7 @@ public class CameraTransitionHandler : MonoBehaviour
     {
         transitionPanel.DOColor(solidColor, transitionDuration).SetEase(Ease.InQuad).OnComplete(() =>
         {
-            color2Transparent_End.Invoke();
+            transparent2Color_End.Invoke();
             DOTween.Kill(transitionPanel);
         });
     }
@@ -39,7 +39,7 @@ public class CameraTransitionHandler : MonoBehaviour
     {
         transitionPanel.DOColor(Color.clear, transitionDuration).SetEase(Ease.InQuad).OnComplete(() =>
         {
-            transparent2Color_End.Invoke();
+            color2Transparent_End.Invoke();
             DOTween.Kill(transitionPanel);
         });
     }
