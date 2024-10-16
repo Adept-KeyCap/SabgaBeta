@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Console
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 18
+  controlID: 138
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 150}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 53
+  controlID: 139
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -3140,7 +3140,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.4216107, y: 3.342675, z: 1.2943149}
+    m_Target: {x: -6.3858714, y: -3.059636, z: -26.413256}
     speed: 2
     m_Value: {x: 0.4216107, y: 3.342675, z: 1.2943149}
   m_RenderMode: 0
@@ -3188,13 +3188,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.04284875, y: 0.18262236, z: -0.0074590975, w: 0.9823976}
+    m_Target: {x: -0.0139794685, y: 0.98599994, z: -0.11289502, w: -0.12221267}
     speed: 2
-    m_Value: {x: 0.042852446, y: 0.18111707, z: -0.007393531, w: 0.98249966}
+    m_Value: {x: -0.042848755, y: -0.18262237, z: 0.007459098, w: -0.9823977}
   m_Size:
-    m_Target: 0.7811753
+    m_Target: 13.842571
     speed: 2
-    m_Value: 0.81798464
+    m_Value: 0.7811753
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -9053,9 +9053,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: fc850000
       m_LastClickedID: 0
-      m_ExpandedIDs: 88cbffffaaccffff34d4ffffbae6ffffdae7ffff92efffff14fbffff
+      m_ExpandedIDs: 14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -9135,14 +9135,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Unity Projects\Sabga\Sabga
+  m_LastProjectPath: D:\Sabga\Sabga
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: eca40000
-    m_LastClickedID: 42220
-    m_ExpandedIDs: 00000000eca40000eea40000f0a40000f2a40000f4a40000f6a4000026a5000082a5000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 19}
+    m_SelectedIDs: eaa40000
+    m_LastClickedID: 42218
+    m_ExpandedIDs: 00000000eaa40000eca40000eea4000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -9170,7 +9170,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000eca40000eea40000f0a40000f2a40000f4a40000f6a40000
+    m_ExpandedIDs: 00000000eaa40000eca40000eea40000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -9397,7 +9397,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: d6830000
     m_LastClickedID: 33750
-    m_ExpandedIDs: 00000000eca40000eea40000f0a40000f2a40000f4a40000f6a40000
+    m_ExpandedIDs: 00000000eaa40000eca40000eea40000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -9425,7 +9425,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000eca40000eea40000f0a40000f2a40000f4a40000f6a40000
+    m_ExpandedIDs: 00000000eaa40000eca40000eea40000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
