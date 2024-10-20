@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class CameraTransitionHandler : MonoBehaviour
 {
+    [SerializeField] private GameObject transitionCanvas;
     [SerializeField] private Image transitionPanel;
     [SerializeField] private Color solidColor;
     [SerializeField] private float transitionDuration;
@@ -28,8 +29,11 @@ public class CameraTransitionHandler : MonoBehaviour
 
     public void Transparent2Color()
     {
+        transitionCanvas.SetActive(true);
         transitionPanel.DOColor(solidColor, transitionDuration).SetEase(Ease.InQuad).OnComplete(() =>
         {
+            transitionCanvas.SetActive(false);
+
             transparent2Color_End.Invoke();
             DOTween.Kill(transitionPanel);
         });
@@ -37,8 +41,11 @@ public class CameraTransitionHandler : MonoBehaviour
 
     public void Color2Transparent()
     {
+        transitionCanvas.SetActive(true);
         transitionPanel.DOColor(Color.clear, transitionDuration).SetEase(Ease.InQuad).OnComplete(() =>
         {
+            transitionCanvas.SetActive(false);
+
             color2Transparent_End.Invoke();
             DOTween.Kill(transitionPanel);
         });

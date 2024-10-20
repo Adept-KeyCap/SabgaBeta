@@ -69,7 +69,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.431
+    - _Smoothness: 0.741
     - _SrcBlend: 1
     - _Surface: 1
     - _Timming: 1
@@ -93,7 +93,7 @@ Material:
     - _NormalSpeed: {r: -0.1, g: 0.1, b: 0, a: 0}
     - _NormalTiling: {r: 25, g: 25, b: 0, a: 0}
     - _WaterColor: {r: 0.08130119, g: 0.44082564, b: 0.5943396, a: 1}
-    - _deepWaterColor: {r: 0, g: 0.12687054, b: 0.24528301, a: 1}
+    - _deepWaterColor: {r: 0, g: 0.26238862, b: 0.3207547, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &7556755386344839426

@@ -15,7 +15,7 @@ C:/Unity Projects/Sabga/Sabga_U6
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52598
+57643
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Unity Projects/Sabga/Sabga_U6
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9512]  Target information:
+Player connection [16136]  Target information:
 
-Player connection [9512]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 163804905 [EditorId] 163804905 [Version] 1048832 [Id] WindowsEditor(7,Adept_KeyCap-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16136]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2319925623 [EditorId] 2319925623 [Version] 1048832 [Id] WindowsEditor(7,Adept_KeyCap-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9512] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9512] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16136] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16136] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,8 +75,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 10.15 ms, found 13 plugins.
-Preloading 3 native plugins for Editor in 1.59 ms.
+Refreshing native plugins compatible for Editor in 298.31 ms, found 13 plugins.
+Preloading 3 native plugins for Editor in 4.98 ms.
 Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Unity Projects/Sabga/Sabga_U6/Assets
@@ -93,46 +93,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003528 seconds.
-- Loaded All Assemblies, in  0.414 seconds
+Registered in 0.006201 seconds.
+- Loaded All Assemblies, in  0.369 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 191 ms
+Android Extension - Scanning For ADB Devices 216 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.529 seconds
-Domain Reload Profiling: 939ms
-	BeginReloadAssembly (155ms)
+- Finished resetting the current domain, in  0.538 seconds
+Domain Reload Profiling: 905ms
+	BeginReloadAssembly (137ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (162ms)
-		LoadAssemblies (152ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (138ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (157ms)
-				TypeCache.ScanAssembly (141ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (119ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (529ms)
+	FinalizeReload (539ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (483ms)
+		SetupLoadedEditorAssemblies (493ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (267ms)
+			InitializePlatformSupportModulesInManaged (293ms)
 			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (142ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,8 +142,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.102 seconds
-Refreshing native plugins compatible for Editor in 10.41 ms, found 13 plugins.
+- Loaded All Assemblies, in  3.645 seconds
+Refreshing native plugins compatible for Editor in 7.67 ms, found 13 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -153,7 +153,7 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 9.07 ms, found 13 plugins.
+Refreshing native plugins compatible for Editor in 7.82 ms, found 13 plugins.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:307 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:292 
@@ -178,222 +178,54 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.084 seconds
-Domain Reload Profiling: 2180ms
-	BeginReloadAssembly (373ms)
+- Finished resetting the current domain, in  1.042 seconds
+Domain Reload Profiling: 4680ms
+	BeginReloadAssembly (501ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (649ms)
-		LoadAssemblies (427ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (3053ms)
+		LoadAssemblies (2810ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (312ms)
-			TypeCache.Refresh (204ms)
-				TypeCache.ScanAssembly (184ms)
-			BuildScriptInfoCaches (89ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (183ms)
+			BuildScriptInfoCaches (83ms)
 			ResolveRequiredComponents (16ms)
-	FinalizeReload (1085ms)
+	FinalizeReload (1042ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (832ms)
+		SetupLoadedEditorAssemblies (822ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (566ms)
-			ProcessInitializeOnLoadMethodAttributes (150ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (208ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+		AwakeInstancesAfterBackupRestoration (4ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 9.76 ms, found 13 plugins.
-Preloading 3 native plugins for Editor in 0.14 ms.
-Unloading 291 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8239 unused Assets / (4.0 MB). Loaded Objects now: 9074.
-Memory consumption went from 312.8 MB to 308.8 MB.
-Total: 13.368700 ms (FindLiveObjects: 1.165000 ms CreateObjectMapping: 0.673700 ms MarkObjects: 7.333100 ms  DeleteObjects: 4.195600 ms)
+Refreshing native plugins compatible for Editor in 9.42 ms, found 13 plugins.
+Preloading 3 native plugins for Editor in 0.13 ms.
+Unloading 297 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8239 unused Assets / (5.3 MB). Loaded Objects now: 9079.
+Memory consumption went from 317.6 MB to 312.3 MB.
+Total: 10.374100 ms (FindLiveObjects: 0.869000 ms CreateObjectMapping: 0.974800 ms MarkObjects: 5.838800 ms  DeleteObjects: 2.690600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27008.959722 seconds.
-  path: Assets/Plugins/Android/AndroidManifest.xml
-  artifactKey: Guid(b8063312bf3737f45b7fde0ab17c0124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(b8063312bf3737f45b7fde0ab17c0124) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4cb4763e35c93bea98d26f75a6a88cb') in 0.0271189 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 138.251762 seconds.
-  path: Assets/5-Sprites
-  artifactKey: Guid(fdc2fa4907a5d5043938b2856c5142d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5-Sprites using Guid(fdc2fa4907a5d5043938b2856c5142d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc6b6adace1831ca1a309a4c0919bfbd') in 0.0005155 seconds
+  Time since last request: 33144.437984 seconds.
+  path: Assets/2-Scenes/RainySkyOcean.unity
+  artifactKey: Guid(4198bca8529abc34d99de3d6bb59ff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2-Scenes/RainySkyOcean.unity using Guid(4198bca8529abc34d99de3d6bb59ff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6996f14fb5175ad8b3147cecf03f8c8') in 0.0059239 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
-Received Import Request.
-  Time since last request: 1.249011 seconds.
-  path: Assets/5-Sprites/Placeholders
-  artifactKey: Guid(8969b8b4f971555469d276efa6c99fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5-Sprites/Placeholders using Guid(8969b8b4f971555469d276efa6c99fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '155bd86f0c582917182c3abacbfce1df') in 0.0004529 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.867672 seconds.
-  path: Assets/5-Sprites/Placeholders/TestFish.png
-  artifactKey: Guid(efca3ba99cd42c54b99b875b2e0e0a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5-Sprites/Placeholders/TestFish.png using Guid(efca3ba99cd42c54b99b875b2e0e0a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1315ec571c1f27ffa5e98bd5977b7846') in 0.0607348 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.740655 seconds.
-  path: Assets/5-Sprites/Placeholders/TestFish.png
-  artifactKey: Guid(efca3ba99cd42c54b99b875b2e0e0a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5-Sprites/Placeholders/TestFish.png using Guid(efca3ba99cd42c54b99b875b2e0e0a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17c0e04c770e7e6aa43c4a705ec7ef86') in 0.0216771 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.982390 seconds.
-  path: Assets/5-Sprites/Placeholders/TestFish.png
-  artifactKey: Guid(efca3ba99cd42c54b99b875b2e0e0a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5-Sprites/Placeholders/TestFish.png using Guid(efca3ba99cd42c54b99b875b2e0e0a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a5b98d94cd30b0aee947cda1d277b39') in 0.0244097 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.167920 seconds.
-  path: Assets/5-Sprites/Placeholders/TestFish.png
-  artifactKey: Guid(efca3ba99cd42c54b99b875b2e0e0a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/5-Sprites/Placeholders/TestFish.png using Guid(efca3ba99cd42c54b99b875b2e0e0a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eed51eced54c5b3697efcd2dd2bed404') in 0.0250332 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 159.280344 seconds.
-  path: Assets/4-Materials/WaterDrop_Mat.mat
-  artifactKey: Guid(5b4d387a729ca0049881fd9a0547641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4-Materials/WaterDrop_Mat.mat using Guid(5b4d387a729ca0049881fd9a0547641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22a1eb4ac5793ccd8359fd6fe1ada4bc') in 0.5063274 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.323024 seconds.
-  path: Assets/Third-Parties/Ejercicios/Ejercicio4Agua/Textures/texturenormalwater 1.png
-  artifactKey: Guid(20798814467653b47a65d3a509debf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Third-Parties/Ejercicios/Ejercicio4Agua/Textures/texturenormalwater 1.png using Guid(20798814467653b47a65d3a509debf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8e21bc56825d5d4790a89fd674640f3') in 0.0161616 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.171570 seconds.
-  path: Assets/Settings/Mobile_Renderer.asset
-  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b01f82cef789461f95cdd63e4e03924b') in 0.001618 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.204015 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aef1b5780e7730518d46eb0d392eb05') in 0.0018966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.855809 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4ea55a717b1293a4b8820d8e4cd3818') in 0.0015088 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Prepare
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.67 ms, found 13 plugins.
-Preloading 3 native plugins for Editor in 0.13 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (2.3 MB). Loaded Objects now: 9265.
-Memory consumption went from 265.9 MB to 263.6 MB.
-Total: 10.939200 ms (FindLiveObjects: 0.453300 ms CreateObjectMapping: 0.184100 ms MarkObjects: 9.783700 ms  DeleteObjects: 0.517200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.12 ms, found 13 plugins.
-Preloading 3 native plugins for Editor in 0.13 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 9265.
-Memory consumption went from 265.9 MB to 263.6 MB.
-Total: 9.703400 ms (FindLiveObjects: 0.472500 ms CreateObjectMapping: 0.177000 ms MarkObjects: 8.504000 ms  DeleteObjects: 0.548900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.12 ms, found 13 plugins.
-Preloading 3 native plugins for Editor in 0.13 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 9267.
-Memory consumption went from 266.0 MB to 263.6 MB.
-Total: 10.405100 ms (FindLiveObjects: 0.421500 ms CreateObjectMapping: 0.459700 ms MarkObjects: 8.805700 ms  DeleteObjects: 0.717200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 32.542046 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '068c586248349d0de0ccf1ebc6ef7f57') in 0.0189991 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.957208 seconds.
-  path: Assets/Third-Parties/Ejercicios/Ejercicio4Agua/Textures/texturenormalwater 1.png
-  artifactKey: Guid(20798814467653b47a65d3a509debf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Third-Parties/Ejercicios/Ejercicio4Agua/Textures/texturenormalwater 1.png using Guid(20798814467653b47a65d3a509debf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8165a37d09cf3b4da1217a7b82e96a1c') in 0.015203 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 648.203823 seconds.
-  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SampleSpatialAnchorController/Meshs/AnchorModel.fbx
-  artifactKey: Guid(7d83cba011175b348a00dd821fe8cddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SampleSpatialAnchorController/Meshs/AnchorModel.fbx using Guid(7d83cba011175b348a00dd821fe8cddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4bbdeedd97f1a07051d238510d9952f') in 0.8314394 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/BigStone/Materials/BigStoneMat.fbx
-  artifactKey: Guid(267e2151ff1c046c282a725a08fb90bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/BigStone/Materials/BigStoneMat.fbx using Guid(267e2151ff1c046c282a725a08fb90bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fc214e847e8ef0cd0f4cffa8787c5d9') in 0.6758686 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/BigRedButton/Models/BigRedButton.fbx
-  artifactKey: Guid(af70fc3edbd215e438037aab32711dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/BigRedButton/Models/BigRedButton.fbx using Guid(af70fc3edbd215e438037aab32711dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a542103a7fae0c22950b0213df2b92e') in 0.1215037 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
