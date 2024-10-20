@@ -75,3 +75,6 @@ Sabga/Logs
 *.wlt
 /Sabga/Library
 /Sabga/Temp
+
+/Sabga_U6/Library
+/Sabga_U6/Temp
