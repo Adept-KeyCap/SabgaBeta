@@ -137,3 +137,60 @@ MonoBehaviour:
   - {fileID: -7893295128165547882}
   - {fileID: -7011558710299706105}
   - {fileID: -5302462781346486129}
+  - {fileID: 1064114694900613644}
+--- !u!114 &1064114694900613644
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb66dc641fe8ef4c843eb98a8fa4058, type: 3}
+  m_Name: FullScreenFog
+  m_EditorClassIdentifier: 
+  active: 0
+  mode:
+    m_OverrideState: 1
+    m_Value: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.662
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0.49021003, g: 0.6389465, b: 0.6792453, a: 1}
+  densityMode:
+    m_OverrideState: 1
+    m_Value: 1
+  startLine:
+    m_OverrideState: 1
+    m_Value: 0
+  endLine:
+    m_OverrideState: 1
+    m_Value: 10
+  startHeight:
+    m_OverrideState: 1
+    m_Value: 5
+  endHeight:
+    m_OverrideState: 1
+    m_Value: 0
+  density:
+    m_OverrideState: 1
+    m_Value: 0.104
+  noiseMode:
+    m_OverrideState: 1
+    m_Value: 1
+  noiseTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+    dimension: 1
+  noiseIntensity:
+    m_OverrideState: 1
+    m_Value: 0.5
+  noiseScale:
+    m_OverrideState: 1
+    m_Value: 3
+  noiseScrollSpeed:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1}
