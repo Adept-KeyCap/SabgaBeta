@@ -625,6 +625,7 @@ GameObject:
   - component: {fileID: 6975060178991710618}
   - component: {fileID: 8508310130056567663}
   - component: {fileID: 6091423898250121167}
+  - component: {fileID: 509322225406394317}
   m_Layer: 0
   m_Name: '[Animalito] Poke Interaction'
   m_TagString: Untagged
@@ -888,6 +889,20 @@ MonoBehaviour:
   _whenSelectingInteractorViewRemoved:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &509322225406394317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5950089910907291876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d80d8ffc2e5204097aa60ee1631572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 0}
+  rotationSpeed: 5
 --- !u!1 &6757704725572626486
 GameObject:
   m_ObjectHideFlags: 0

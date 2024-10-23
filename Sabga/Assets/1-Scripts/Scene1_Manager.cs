@@ -1,4 +1,5 @@
 using DG.Tweening;
+using System.Collections;
 using UnityEngine;
 
 public class Scene1_Manager : MonoBehaviour
@@ -6,11 +7,22 @@ public class Scene1_Manager : MonoBehaviour
     [SerializeField] private GameObject seagull;
     [SerializeField] private AudioSource[] audios;
 
-    private Sequence seagulSequence;
     public Transform landingPosition;
+    public float landingSpeed;
+    public float takeoffSpeed;
 
     private void Start()
     {
+        seagull.transform.DOMove(landingPosition.position, landingSpeed).OnComplete(() =>
+        {
+            StartCoroutine(PlayThunder());
+        });
+    }
+
+    private IEnumerator PlayThunder()
+    {
+
+        yield return new WaitForSeconds(takeoffSpeed);
 
     }
 
@@ -19,14 +31,8 @@ public class Scene1_Manager : MonoBehaviour
         audios[0].Play();
     }
 
-
-    private void PlayInteractionClue()
-    {
-        audios[1].Play();
-    }
-
     private void PlayWingsSound()
     {
-        audios[2].Play();
+        audios[1].Play();
     }
 }
