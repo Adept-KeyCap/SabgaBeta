@@ -197,6 +197,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Simulation Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 8413894055432651222, guid: c17de1c2a0deaa345a0c6c03dd5e8517,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -223,7 +228,7 @@ PrefabInstance:
     - target: {fileID: 3226847246855219659, guid: d3d0d23008927874298a3b76c3aa67ca,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8057470310778284536, guid: d3d0d23008927874298a3b76c3aa67ca,
         type: 3}
@@ -364,8 +369,14 @@ PrefabInstance:
     - target: {fileID: 8706153955155544796, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: m_Name
-      value: Gaviota_2
+      value: Animal_3
       objectReference: {fileID: 0}
+    - target: {fileID: 9043710648876591493, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 64f9f330f3725c945a1a8b5702721d27,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2553703573735565875, guid: 993fb9fc02bab0641b86fdb15720ac72, type: 3}
@@ -10389,7 +10400,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &711164900
 MonoBehaviour:
@@ -10800,8 +10811,14 @@ PrefabInstance:
     - target: {fileID: 8706153955155544796, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: m_Name
-      value: Gaviota_1
+      value: Animal_2
       objectReference: {fileID: 0}
+    - target: {fileID: 9043710648876591493, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3b4f8c08b675939438f1447f894ea8a9,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2553703573735565875, guid: 993fb9fc02bab0641b86fdb15720ac72, type: 3}
@@ -11226,8 +11243,14 @@ PrefabInstance:
     - target: {fileID: 8706153955155544796, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: m_Name
-      value: Gaviota_3
+      value: Animal_4
       objectReference: {fileID: 0}
+    - target: {fileID: 9043710648876591493, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ce74e16eba7ade9479af542a68add5a9,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2553703573735565875, guid: 993fb9fc02bab0641b86fdb15720ac72, type: 3}
@@ -11447,7 +11470,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &1410317549
 MeshCollider:
@@ -11789,15 +11812,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1830704906679691475, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3172490246443006990, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 1038408870}
+    - target: {fileID: 4560629584988807479, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889980724305067232, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412541802798041214, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412541802798041214, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412541802798041214, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5412541802798041214, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 50
+      value: 49.74
       objectReference: {fileID: 0}
     - target: {fileID: 5412541802798041214, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
@@ -11844,6 +11897,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5412541802798041214, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5808671594624569687, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: instanceId
@@ -11857,8 +11915,14 @@ PrefabInstance:
     - target: {fileID: 8706153955155544796, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: m_Name
-      value: Gaviota_4
+      value: Animal_5
       objectReference: {fileID: 0}
+    - target: {fileID: 9043710648876591493, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e61e9d9c0bad22c4bb60efefb36769b4,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2553703573735565875, guid: 993fb9fc02bab0641b86fdb15720ac72, type: 3}
@@ -12212,8 +12276,14 @@ PrefabInstance:
     - target: {fileID: 8706153955155544796, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: m_Name
-      value: Gaviota
+      value: Animal_1
       objectReference: {fileID: 0}
+    - target: {fileID: 9043710648876591493, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ec6355acd05af2a45a0de6a40e8c3021,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2553703573735565875, guid: 993fb9fc02bab0641b86fdb15720ac72, type: 3}
