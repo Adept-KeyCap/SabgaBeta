@@ -25,12 +25,12 @@ public class Scene1_Manager : MonoBehaviour
 
     private IEnumerator PlayThunder()
     {
+        PlayThunderSound();
 
         yield return new WaitForSeconds(takeoffSpeed);
         seagull.transform.DOMove(new Vector3(-100, 100, 100), landingSpeed).SetEase(Ease.InCubic).OnComplete(() =>
         {
             sceneCleared.Invoke();
-            PlayThunderSound();
             DOTween.Kill(seagull.transform);
         });
     }
