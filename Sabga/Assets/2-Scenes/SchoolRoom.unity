@@ -1492,6 +1492,7 @@ GameObject:
   - component: {fileID: 769266023}
   - component: {fileID: 769266022}
   - component: {fileID: 769266025}
+  - component: {fileID: 769266026}
   m_Layer: 0
   m_Name: '[BuildingBlock] Poke Interaction'
   m_TagString: Untagged
@@ -1694,6 +1695,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorView: {fileID: 5266344889914078457}
+  _whenEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 586742714}
+        m_TargetAssemblyTypeName: CameraTransitionHandler, Assembly-CSharp
+        m_MethodName: Transparent2Color
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &769266026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769266021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf00a93483fd1b4ba357bf6f764d6e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorView: {fileID: 5266344889914078458}
   _whenEnabled:
     m_PersistentCalls:
       m_Calls: []
@@ -4419,6 +4463,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8219477814262620355, guid: d3d0d23008927874298a3b76c3aa67ca,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BuildingBlock] Right Poke'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4427,6 +4476,18 @@ PrefabInstance:
 --- !u!114 &5266344889914078457 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6547275291218626564, guid: d3d0d23008927874298a3b76c3aa67ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 5266344889914078456}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d952c175ec3c6554199fd744548ce50a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5266344889914078458 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2620729040063938039, guid: d3d0d23008927874298a3b76c3aa67ca,
     type: 3}
   m_PrefabInstance: {fileID: 5266344889914078456}
   m_PrefabAsset: {fileID: 0}
