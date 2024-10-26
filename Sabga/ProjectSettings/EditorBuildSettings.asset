@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/2-Scenes/SchoolRoom.unity
+    path: Assets/2-Scenes/1-SchoolRoom.unity
     guid: 8b9f0e4ce7ce2244dbefe8907fba5ef2
   - enabled: 1
-    path: Assets/2-Scenes/ClearSkyOcean.unity
+    path: Assets/2-Scenes/2-ClearSkyOcean.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/2-Scenes/RainySkyOcean.unity
+    path: Assets/2-Scenes/3-RainySkyOcean.unity
     guid: 4198bca8529abc34d99de3d6bb59ff88
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d08a182f333663841b9409d22d3ccfae,
