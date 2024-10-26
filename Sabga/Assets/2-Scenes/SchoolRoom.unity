@@ -4413,6 +4413,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1968025748208513789, guid: d3d0d23008927874298a3b76c3aa67ca,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270693309890695349, guid: d3d0d23008927874298a3b76c3aa67ca,
+        type: 3}
+      propertyPath: _trackingOriginType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8057470310778284536, guid: d3d0d23008927874298a3b76c3aa67ca,
         type: 3}
       propertyPath: m_LocalPosition.x
