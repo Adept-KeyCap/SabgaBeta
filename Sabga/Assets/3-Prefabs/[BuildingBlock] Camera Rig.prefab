@@ -1676,6 +1676,7 @@ GameObject:
   - component: {fileID: 1217961026657070600}
   - component: {fileID: 8544798365791892047}
   - component: {fileID: 5663989308476466673}
+  - component: {fileID: 1968025748208513789}
   m_Layer: 0
   m_Name: '[BuildingBlock] Camera Rig'
   m_TagString: Player
@@ -1797,7 +1798,7 @@ MonoBehaviour:
   requestScenePermissionOnStartup: 1
   requestRecordAudioPermissionOnStartup: 0
   _localDimming: 1
-  _trackingOriginType: 1
+  _trackingOriginType: 0
   usePositionTracking: 1
   useRotationTracking: 1
   useIPDInPositionTracking: 1
@@ -1886,6 +1887,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85529fefb91a2ae4eaaf48293afbd8ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1968025748208513789
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532161866382803116}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1f071bcb141ac33408c4c11538188bfe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1559753155387260312
 GameObject:
   m_ObjectHideFlags: 0

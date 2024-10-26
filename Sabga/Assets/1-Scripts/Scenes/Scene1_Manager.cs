@@ -16,7 +16,7 @@ public class Scene1_Manager : MonoBehaviour
 
     private void Start()
     {
-        seagull.transform.DOMove(landingPosition.position, landingSpeed).SetEase(Ease.InCubic).OnComplete(() =>
+        seagull.transform.DOMove(landingPosition.position, landingSpeed).SetEase(Ease.InOutCubic).OnComplete(() =>
         {
             StartCoroutine(PlayThunder());
             DOTween.Kill(seagull.transform);
@@ -28,7 +28,7 @@ public class Scene1_Manager : MonoBehaviour
         PlayThunderSound();
 
         yield return new WaitForSeconds(takeoffSpeed);
-        seagull.transform.DOMove(new Vector3(-100, 100, 100), landingSpeed).SetEase(Ease.InCubic).OnComplete(() =>
+        seagull.transform.DOMove(new Vector3(-100, 100, 100), landingSpeed).SetEase(Ease.InOutCubic).OnComplete(() =>
         {
             sceneCleared.Invoke();
             DOTween.Kill(seagull.transform);
