@@ -219,17 +219,17 @@ PrefabInstance:
     - target: {fileID: 509130917587151060, guid: c17de1c2a0deaa345a0c6c03dd5e8517,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.6425493
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 509130917587151060, guid: c17de1c2a0deaa345a0c6c03dd5e8517,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.09998257
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 509130917587151060, guid: c17de1c2a0deaa345a0c6c03dd5e8517,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.9741087
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 509130917587151060, guid: c17de1c2a0deaa345a0c6c03dd5e8517,
         type: 3}
@@ -271,6 +271,11 @@ PrefabInstance:
       propertyPath: transitionPanel
       value: 
       objectReference: {fileID: 2064429578}
+    - target: {fileID: 7719807144271979569, guid: c17de1c2a0deaa345a0c6c03dd5e8517,
+        type: 3}
+      propertyPath: transparent2Color_End.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8413894055432651222, guid: c17de1c2a0deaa345a0c6c03dd5e8517,
         type: 3}
       propertyPath: m_Name
@@ -281,6 +286,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c17de1c2a0deaa345a0c6c03dd5e8517, type: 3}
+--- !u!114 &60262985 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7719807144271979569, guid: c17de1c2a0deaa345a0c6c03dd5e8517,
+    type: 3}
+  m_PrefabInstance: {fileID: 60262983}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1345867061abdd44aa44ff6c8be01b16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &73604532 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1532161866382803116, guid: d3d0d23008927874298a3b76c3aa67ca,
@@ -5729,7 +5746,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneCleared:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 60262985}
+        m_TargetAssemblyTypeName: CameraTransitionHandler, Assembly-CSharp
+        m_MethodName: Transparent2Color
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   seagull: {fileID: 181984107}
   audios:
   - {fileID: 1675145529}

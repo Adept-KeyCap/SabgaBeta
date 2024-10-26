@@ -15,7 +15,11 @@ public class DepthVisualsHandler : MonoBehaviour
     {
         // Get the active URP asset (Pipeline settings)
         urpAsset = (UniversalRenderPipelineAsset)GraphicsSettings.currentRenderPipeline;
-        DisableFog();
+        var sceneManagerCheck = FindAnyObjectByType<Scene1_Manager>();
+        if(sceneManagerCheck == null)
+        {
+            DisableFog();
+        }
     }
 
     // Enable fog
