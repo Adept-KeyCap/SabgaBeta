@@ -25,9 +25,9 @@ public class Scene1_Manager : MonoBehaviour
 
     private IEnumerator PlayThunder()
     {
-        PlayThunderSound();
 
         yield return new WaitForSeconds(takeoffSpeed);
+        PlayThunderSound();
         seagull.transform.DOMove(new Vector3(-100, 100, 100), landingSpeed).SetEase(Ease.InOutCubic).OnComplete(() =>
         {
             sceneCleared.Invoke();
