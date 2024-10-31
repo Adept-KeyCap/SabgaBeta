@@ -72,7 +72,7 @@ Material:
     - _noiseScale: 52.44
     - _sweepSpeed: 0
     m_Colors:
-    - _Direction: {r: 0.2, g: 0, b: 0, a: 0}
+    - _Direction: {r: 0.1, g: 0, b: 0, a: 0}
     - _dissolveColor: {r: 0, g: 2.097949, b: 2.450532, a: 0}
     - _offset: {r: -0.19, g: -0.41, b: 0, a: 0}
     - _tilling: {r: 1.06, g: 1.13, b: 0, a: 0}
