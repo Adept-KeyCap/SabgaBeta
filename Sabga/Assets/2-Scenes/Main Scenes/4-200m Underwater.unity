@@ -140,7 +140,7 @@ PrefabInstance:
     - target: {fileID: 509130917587151060, guid: c17de1c2a0deaa345a0c6c03dd5e8517,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -16
       objectReference: {fileID: 0}
     - target: {fileID: 509130917587151060, guid: c17de1c2a0deaa345a0c6c03dd5e8517,
         type: 3}
@@ -238,7 +238,7 @@ PrefabInstance:
     - target: {fileID: 8057470310778284536, guid: d3d0d23008927874298a3b76c3aa67ca,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -29.1
+      value: -29
       objectReference: {fileID: 0}
     - target: {fileID: 8057470310778284536, guid: d3d0d23008927874298a3b76c3aa67ca,
         type: 3}
@@ -5669,7 +5669,7 @@ Transform:
   m_GameObject: {fileID: 711164899}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -20, z: 0}
+  m_LocalPosition: {x: 0, y: -29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5688,10 +5688,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCurrentPos: {fileID: 101068774}
-  playerStartPos: {fileID: 711164901}
+  playerStartPos: {fileID: 930497430}
+  playerTargetPos: {fileID: 711164901}
   descendTime: 10
-  transitionMat: {fileID: 2100000, guid: 85d57afb21c190f49ab7e42c7c1ade75, type: 2}
+  transitionObj: {fileID: 1313015317}
   textTime: 5
+  OnDepthTransitionEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 711164900}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1001 &757291351
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5984,6 +6000,12 @@ Transform:
   - {fileID: 1374545562}
   m_Father: {fileID: 1637839615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &930497430 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 509130917587151060, guid: c17de1c2a0deaa345a0c6c03dd5e8517,
+    type: 3}
+  m_PrefabInstance: {fileID: 60262983}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1038408870 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9176419792625395127, guid: d3d0d23008927874298a3b76c3aa67ca,
