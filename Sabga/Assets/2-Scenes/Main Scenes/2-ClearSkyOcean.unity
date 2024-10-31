@@ -2798,6 +2798,33 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 757291351}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &802975781 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2138687134861593693, guid: 993fb9fc02bab0641b86fdb15720ac72,
+    type: 3}
+  m_PrefabInstance: {fileID: 156823828313588798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &802975783
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802975781}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8cfb5907e5b90d9419a4c185d28da55e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &824371695
 GameObject:
   m_ObjectHideFlags: 0
@@ -8597,6 +8624,26 @@ PrefabInstance:
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 1038408870}
+    - target: {fileID: 4544576371856081999, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_text
+      value: Gaviota
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412541802798041214, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412541802798041214, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412541802798041214, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5412541802798041214, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8647,6 +8694,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5412541802798041214, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6072147780906664962, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: playerCamera
@@ -8666,7 +8718,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2138687134861593693, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 802975783}
   m_SourcePrefab: {fileID: 100100000, guid: 993fb9fc02bab0641b86fdb15720ac72, type: 3}
 --- !u!1001 &6938526449624893373
 PrefabInstance:
