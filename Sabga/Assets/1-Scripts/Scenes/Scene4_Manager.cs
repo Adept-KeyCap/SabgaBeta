@@ -21,6 +21,9 @@ public class Scene4_Manager : MonoBehaviour
 
     public UnityEvent OnDepthTransitionEnd;
 
+    //Solo para la preentrega, Borra después de eso
+    public GameObject bntContinue;
+
     private void Awake()
     {
         playerCurrentPos.position = playerStartPos.position;
@@ -58,5 +61,9 @@ public class Scene4_Manager : MonoBehaviour
             });           
                 
         });
+
+        yield return new WaitForSeconds(textTime*5);
+
+        bntContinue.SetActive(true);
     }
 }
