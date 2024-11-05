@@ -324,6 +324,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: '[BuildingBlock] Camera Rig'
       objectReference: {fileID: 0}
+    - target: {fileID: 1968025748208513789, guid: d3d0d23008927874298a3b76c3aa67ca,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5270693309890695349, guid: d3d0d23008927874298a3b76c3aa67ca,
         type: 3}
       propertyPath: _trackingOriginType
@@ -850,7 +855,7 @@ MonoBehaviour:
   _editor: {fileID: 639635815}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.25059205, g: 0.6377357, b: 0.13837653, a: 1}
+    Color: {r: 0.64705884, g: 0.64705884, b: 1, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -877,7 +882,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     ColorTime: 0.1
   _hoverColorState:
-    Color: {r: 0.13100538, g: 0.4113207, b: 0.048892815, a: 1}
+    Color: {r: 0.46511212, g: 0.46511212, b: 0.735849, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -904,7 +909,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     ColorTime: 0.1
   _selectColorState:
-    Color: {r: 0.29985842, g: 0.9245283, b: 0.116874315, a: 1}
+    Color: {r: 0, g: 0.36427668, b: 0.6830188, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -972,7 +977,7 @@ MonoBehaviour:
   _editor: {fileID: 639635815}
   _width: 0.135
   _height: 0.1
-  _color: {r: 1, g: 1, b: 1, a: 1}
+  _color: {r: 0.64705884, g: 0.64705884, b: 1, a: 1}
   _borderColor: {r: 0, g: 0, b: 0, a: 1}
   _radiusTopLeft: 0
   _radiusTopRight: 0
@@ -6134,8 +6139,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.13052596, y: -0, z: -0, w: 0.99144495}
   m_LocalPosition: {x: 0, y: 1.467, z: 0.656}
-  m_LocalScale: {x: 4.77, y: 2.3, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 4, y: 1.9287211, z: 0.8385744}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1515697826}
   - {fileID: 89281221}
@@ -6370,7 +6375,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.2, z: 0.001}
+  m_LocalScale: {x: 0.1, y: 0.15, z: 0.001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1515697826}
@@ -6718,7 +6723,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.2, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 89281221}
@@ -6739,7 +6744,7 @@ MonoBehaviour:
   _editor: {fileID: 1468708375}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.25059205, g: 0.6377357, b: 0.13837653, a: 1}
+    Color: {r: 0.64705884, g: 0.64705884, b: 1, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -6766,7 +6771,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     ColorTime: 0.1
   _hoverColorState:
-    Color: {r: 0.13100538, g: 0.4113207, b: 0.048892815, a: 1}
+    Color: {r: 0.46511212, g: 0.46511212, b: 0.735849, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -6793,7 +6798,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     ColorTime: 0.1
   _selectColorState:
-    Color: {r: 0.29985842, g: 0.9245283, b: 0.116874315, a: 1}
+    Color: {r: 0, g: 0.36427668, b: 0.6830188, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -6861,12 +6866,12 @@ MonoBehaviour:
   _editor: {fileID: 1468708375}
   _width: 0.1
   _height: 0.2
-  _color: {r: 1, g: 1, b: 1, a: 1}
+  _color: {r: 0.64705884, g: 0.64705884, b: 1, a: 1}
   _borderColor: {r: 0, g: 0, b: 0, a: 1}
-  _radiusTopLeft: 0.5
-  _radiusTopRight: 0.5
-  _radiusBottomLeft: 0.5
-  _radiusBottomRight: 0.5
+  _radiusTopLeft: 0
+  _radiusTopRight: 0
+  _radiusBottomLeft: 0
+  _radiusBottomRight: 0
   _borderInnerRadius: 0
   _borderOuterRadius: 0
 --- !u!114 &1468708375
@@ -7645,7 +7650,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2055240791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7820,8 +7825,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.12607841, y: 0.25660437, z: -0.03378254, w: 0.95766234}
   m_LocalPosition: {x: 0.579, y: 1.467, z: 0.487}
-  m_LocalScale: {x: 4.77, y: 2.3, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3.5, y: 1.687631, z: 0.7337526}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 427684645}
   - {fileID: 2068323952}
