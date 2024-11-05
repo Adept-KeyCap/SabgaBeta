@@ -440,6 +440,46 @@ PrefabInstance:
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 1038408870}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 711164902}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DeactivateAnimal
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Scene4_Manager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1116394460}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6833437853440078546, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: m_Controller
@@ -486,7 +526,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &284155518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1050,6 +1090,12 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &470875911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8706153955155544796, guid: 993fb9fc02bab0641b86fdb15720ac72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1703068169}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &514351542
 GameObject:
   m_ObjectHideFlags: 0
@@ -6106,6 +6152,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  OnAllAnimalsUsed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 284155517}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   bntContinue: {fileID: 284155517}
 --- !u!82 &711164903
 AudioSource:
@@ -6203,6 +6264,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &726833130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8706153955155544796, guid: 993fb9fc02bab0641b86fdb15720ac72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1306928714}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &757291351
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6286,6 +6353,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5085882851853314090, guid: babe42f656e640b4c9baa85babb7a049,
     type: 3}
   m_PrefabInstance: {fileID: 757291351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &768154385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8706153955155544796, guid: 993fb9fc02bab0641b86fdb15720ac72,
+    type: 3}
+  m_PrefabInstance: {fileID: 156823828313588798}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &825710056
 PrefabInstance:
@@ -6641,6 +6714,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 101068773}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1116394460 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8706153955155544796, guid: 993fb9fc02bab0641b86fdb15720ac72,
+    type: 3}
+  m_PrefabInstance: {fileID: 208790719}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1134284442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6749,6 +6828,46 @@ PrefabInstance:
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 1038408870}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 711164902}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DeactivateAnimal
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Scene4_Manager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1941170578}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6833437853440078546, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: m_Controller
@@ -7174,7 +7293,7 @@ PrefabInstance:
     - target: {fileID: 3859873840986684294, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4544576371856081999, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
@@ -7271,6 +7390,46 @@ PrefabInstance:
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 1038408870}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 711164902}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DeactivateAnimal
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Scene4_Manager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 726833130}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6833437853440078546, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: m_Controller
@@ -8272,6 +8431,46 @@ PrefabInstance:
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 1038408870}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 711164902}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DeactivateAnimal
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Scene4_Manager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 470875911}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8706153955155544796, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: m_Name
@@ -8744,6 +8943,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1927345007}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1941170578 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8706153955155544796, guid: 993fb9fc02bab0641b86fdb15720ac72,
+    type: 3}
+  m_PrefabInstance: {fileID: 1134284442}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2064429578 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2730653232464646281, guid: d3d0d23008927874298a3b76c3aa67ca,
@@ -8985,6 +9190,46 @@ PrefabInstance:
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 1038408870}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 711164902}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DeactivateAnimal
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Scene4_Manager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 768154385}
+    - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
+        type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6833437853440078546, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: m_Controller
