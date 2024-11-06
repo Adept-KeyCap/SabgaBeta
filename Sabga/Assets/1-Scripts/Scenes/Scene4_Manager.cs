@@ -1,4 +1,5 @@
 using DG.Tweening;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -23,10 +24,15 @@ public class Scene4_Manager : MonoBehaviour
     public float textTime;
 
     public UnityEvent OnDepthTransitionEnd;
-    public UnityEvent OnAllAnimalsUsed;
 
     //Solo para la preentrega, Borra después de eso
     public GameObject bntContinue;
+
+    [Header("Mukina Animation")]
+    [SerializeField] private Transform mukinaCurrentPos;
+    [SerializeField] private Transform mukinaTargetPos;
+    public float mukinaTransitionTime;
+
 
     private void Awake()
     {
@@ -83,9 +89,19 @@ public class Scene4_Manager : MonoBehaviour
 
         if(usedAnials == animalOrbit.fishList.Count)
         {
-            OnAllAnimalsUsed.Invoke();
+            OnAllAnimalsUsed();
         }
 
         obj.SetActive(false);
+    }
+
+    private void OnAllAnimalsUsed()
+    {
+        mukinaCurrentPos.DOMove(mukinaTargetPos.position, mukinaTransitionTime).SetEase(Ease.InOutSine).OnComplete(() =>
+        {
+            DOTween.Kill(mukinaCurrentPos);
+        });
+
+
     }
 }
