@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Console
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -277,8 +277,8 @@ MonoBehaviour:
     y: 344
     width: 462
     height: 314
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.12606935, y: 0.2050079, z: -0.025741696, w: 0.97044784}
     speed: 2
-    m_Value: {x: 0.12604709, y: 0.20497169, z: -0.02573715, w: 0.9702764}
+    m_Value: {x: -0.12606935, y: -0.2050079, z: 0.025741696, w: -0.9704479}
   m_Size:
     m_Target: 0.8660254
     speed: 2
@@ -1285,10 +1285,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 2}
-      m_SelectedIDs: 40be0000
-      m_LastClickedID: 48704
-      m_ExpandedIDs: bacafffffed1ffffaeeeffffbaeeffff9cf0ffff14fbffff66ac0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: be850000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 12fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1358,7 +1358,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/1-Scripts/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1366,16 +1366,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/1-Scripts/Scenes
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Unity Projects\Sabga\Sabga
+  m_LastProjectPath: D:\C2.0\Sabga\Sabga
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b0aa0000
-    m_LastClickedID: 43696
-    m_ExpandedIDs: 00000000d2a80000d4a80000d6a8000000ca9a3bffffff7f
+    m_SelectedIDs: 66a00000
+    m_LastClickedID: 41062
+    m_ExpandedIDs: 0000000066a0000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1403,7 +1403,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 6adfffff
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d2a80000d4a80000d6a80000
+    m_ExpandedIDs: 0000000066a00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1428,24 +1428,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 40be0000
-    m_LastClickedInstanceID: 48704
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 0c640000726d0000806700000c70000034af0000666d0000000000003270000040700000d2700000be700000487a0000328600005a9d000076a9000092830000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scene5_Manager
-      m_OriginalName: Scene5_Manager
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 47084
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
@@ -1455,7 +1455,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 138}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 128.8
@@ -1557,7 +1557,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: d6830000
     m_LastClickedID: 33750
-    m_ExpandedIDs: 00000000d2a80000d4a80000d6a80000
+    m_ExpandedIDs: 0000000066a00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1585,7 +1585,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d2a80000d4a80000d6a80000
+    m_ExpandedIDs: 0000000066a00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1682,7 +1682,7 @@ MonoBehaviour:
     m_CachedPref: 151
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 48704
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
