@@ -20,7 +20,7 @@ public class AnimalsOrbit : MonoBehaviour
 
         foreach (var fish in fishList)
         {
-            heightOffsets.Add(Random.Range(-1f, 1f)); // Offset de altura aleatorio
+            heightOffsets.Add(Random.Range(-0.6f, 0.6f)); // Offset de altura aleatorio
             speedOffsets.Add(Random.Range(0.5f, 1f)); // Offset de velocidad aleatorio
         }
     }

@@ -105,9 +105,20 @@ public class Scene4_Manager : MonoBehaviour
 
     public void MoveMukinaAway()
     {
-        mukinaCurrentPos.DOMove(mukinaCurrentPos.position + new Vector3(3, 0, 0), 8).SetEase(Ease.InOutSine).OnComplete(() =>
+        mukinaCurrentPos.DOMove(mukinaCurrentPos.position + new Vector3(2, 0, 0), 5).SetEase(Ease.InOutSine).OnComplete(() =>
         {
             DOTween.Kill(mukinaCurrentPos);
         });
+    }
+
+    public void ShowContinueBtn()
+    {
+        StartCoroutine(ShowContinue());
+    }
+
+    IEnumerator ShowContinue()
+    {
+        yield return new WaitForSeconds(5);
+        bntContinue.SetActive(true);
     }
 }

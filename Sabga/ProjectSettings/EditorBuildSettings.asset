@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/2-Scenes/Main Scenes/4-200m Underwater.unity
     guid: e47ac60ddf01fec4999a08b1e57eddb5
   - enabled: 1
+    path: Assets/2-Scenes/Main Scenes/5-600m Underwater.unity
+    guid: fd77d8b3bd0cb524392b7628f44f894e
+  - enabled: 1
     path: Assets/2-Scenes/Main Scenes/10-FabricsScene.unity
     guid: 42442e3e8d01e0f40bc01131e5a4a31f
   m_configObjects:
