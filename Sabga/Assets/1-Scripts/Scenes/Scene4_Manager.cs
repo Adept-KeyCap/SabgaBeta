@@ -101,7 +101,13 @@ public class Scene4_Manager : MonoBehaviour
         {
             DOTween.Kill(mukinaCurrentPos);
         });
+    }
 
-
+    public void MoveMukinaAway()
+    {
+        mukinaCurrentPos.DOMove(mukinaCurrentPos.position + new Vector3(3, 0, 0), 8).SetEase(Ease.InOutSine).OnComplete(() =>
+        {
+            DOTween.Kill(mukinaCurrentPos);
+        });
     }
 }
