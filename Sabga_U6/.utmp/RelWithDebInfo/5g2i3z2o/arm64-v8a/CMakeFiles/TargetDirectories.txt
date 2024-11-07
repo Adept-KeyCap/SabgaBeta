@@ -1,5 +1,0 @@
-C:/Unity Projects/Sabga/Sabga_U6/.utmp/RelWithDebInfo/5g2i3z2o/arm64-v8a/CMakeFiles/edit_cache.dir
-C:/Unity Projects/Sabga/Sabga_U6/.utmp/RelWithDebInfo/5g2i3z2o/arm64-v8a/CMakeFiles/rebuild_cache.dir
-C:/Unity Projects/Sabga/Sabga_U6/.utmp/RelWithDebInfo/5g2i3z2o/arm64-v8a/GameActivity/CMakeFiles/game.dir
-C:/Unity Projects/Sabga/Sabga_U6/.utmp/RelWithDebInfo/5g2i3z2o/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
-C:/Unity Projects/Sabga/Sabga_U6/.utmp/RelWithDebInfo/5g2i3z2o/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
