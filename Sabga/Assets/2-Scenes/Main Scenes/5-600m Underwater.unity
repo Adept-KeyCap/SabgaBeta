@@ -459,7 +459,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 711164902}
+      objectReference: {fileID: 0}
     - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
@@ -6080,10 +6080,10 @@ GameObject:
   m_Component:
   - component: {fileID: 711164901}
   - component: {fileID: 711164900}
-  - component: {fileID: 711164902}
+  - component: {fileID: 711164904}
   - component: {fileID: 711164903}
   m_Layer: 0
-  m_Name: Scene4_Manager
+  m_Name: Scene5_Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6125,43 +6125,6 @@ Transform:
   - {fileID: 1052935846}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &711164902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711164899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25294e3282277cc4180068f3759de8e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerCurrentPos: {fileID: 101068774}
-  playerStartPos: {fileID: 930497430}
-  playerTargetPos: {fileID: 711164901}
-  descendTime: 10
-  transitionObj: {fileID: 1313015317}
-  textTime: 5
-  OnDepthTransitionEnd:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 711164900}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  bntContinue: {fileID: 284155517}
-  mukinaCurrentPos: {fileID: 1345464205}
-  mukinaTargetPos: {fileID: 1052935846}
-  mukinaTransitionTime: 10
 --- !u!82 &711164903
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6258,6 +6221,31 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &711164904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711164899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd00df26190756741accde584482c73f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCurrentPos: {fileID: 101068774}
+  playerStartPos: {fileID: 930497430}
+  playerTargetPos: {fileID: 711164901}
+  descendTime: 10
+  transitionObj: {fileID: 1313015317}
+  textTime: 5
+  OnDepthTransitionEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  bntContinue: {fileID: 0}
+  mukinaCurrentPos: {fileID: 0}
+  mukinaTargetPos: {fileID: 0}
+  mukinaTransitionTime: 0
 --- !u!1 &726833130 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8706153955155544796, guid: 993fb9fc02bab0641b86fdb15720ac72,
@@ -6892,7 +6880,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 711164902}
+      objectReference: {fileID: 0}
     - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
@@ -7479,7 +7467,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 711164902}
+      objectReference: {fileID: 0}
     - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
@@ -7779,7 +7767,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 711164902}
+      objectReference: {fileID: 0}
     - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
@@ -7829,12 +7817,6 @@ PrefabInstance:
 --- !u!1 &1345464204 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8706153955155544796, guid: 993fb9fc02bab0641b86fdb15720ac72,
-    type: 3}
-  m_PrefabInstance: {fileID: 1345464203}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1345464205 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5412541802798041214, guid: 993fb9fc02bab0641b86fdb15720ac72,
     type: 3}
   m_PrefabInstance: {fileID: 1345464203}
   m_PrefabAsset: {fileID: 0}
@@ -8746,7 +8728,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 711164902}
+      objectReference: {fileID: 0}
     - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
@@ -9520,7 +9502,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 711164902}
+      objectReference: {fileID: 0}
     - target: {fileID: 6466687451505052817, guid: 993fb9fc02bab0641b86fdb15720ac72,
         type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
