@@ -26,7 +26,8 @@ public class Scene5_Manager : MonoBehaviour
     public UnityEvent OnDepthTransitionEnd;
 
     //Solo para la preentrega, Borra después de eso
-    public GameObject bntContinue;
+    public GameObject interactionBtn;
+    public GameObject btnContinue;
 
 
     private void Awake()
@@ -72,31 +73,17 @@ public class Scene5_Manager : MonoBehaviour
 
     }
 
-    //public void DeactivateAnimal(GameObject animal)
-    //{
-    //    StartCoroutine(DeactivateAnimalCorutine(animal));
-    //}
+    public void ActivateInteractionBtnAnimal()
+    {
+        StartCoroutine(ActivateBtnCorutine());
+    }
 
-    //private IEnumerator DeactivateAnimalCorutine(GameObject obj)
-    //{
-    //    yield return new WaitForSeconds(7);
-    //    usedAnials++;
-
-    //    if(usedAnials == animalOrbit.fishList.Count)
-    //    {
-    //        OnAllAnimalsUsed();
-    //    }
-
-    //    obj.SetActive(false);
-    //}
-
-    //private void OnAllAnimalsUsed()
-    //{
-    //    mukinaCurrentPos.DOMove(mukinaTargetPos.position, mukinaTransitionTime).SetEase(Ease.InOutSine).OnComplete(() =>
-    //    {
-    //        DOTween.Kill(mukinaCurrentPos);
-    //    });
+    private IEnumerator ActivateBtnCorutine()
+    {
+        yield return new WaitForSeconds(7);
 
 
-    //}
+        interactionBtn.SetActive(true);
+    }
+
 }
